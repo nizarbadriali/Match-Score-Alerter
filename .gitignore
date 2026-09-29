@@ -1,61 +1,7 @@
-# Arduino/ESP32 Build Files
+.env
 build/
-dist/
-*.o
-*.a
-*.so
-*.elf
-
-# IDE Generated Files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Arduino IDE
-*.cpp.o
-*.cpp.d
-*.h.o
-*.h.d
-
-# Build artifacts
 *.hex
 *.bin
-*.map
-
-# Dependencies
-libraries/
-sketches/
-
-# Sensitive Files (NEVER commit these!)
-secrets.h
-credentials.h
-config_local.h
-*.key
-*.pem
-
-# OS-specific
 .DS_Store
-Thumbs.db
-.directory
-
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.backup
-*~
-
-# Python cache (if using any Python tools)
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Documentation build
-docs/_build/
-
-# Arduino IDE cache
+.vscode/
 .arduino15/
-.cache/
