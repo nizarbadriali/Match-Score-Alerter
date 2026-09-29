@@ -1,69 +1,61 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
+# Arduino/ESP32 Build Files
 build/
-Build/
-build-*/
+dist/
+*.o
+*.a
+*.so
+*.elf
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+# IDE Generated Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Arduino IDE
+*.cpp.o
+*.cpp.d
+*.h.o
+*.h.d
+
+# Build artifacts
+*.hex
+*.bin
+*.map
+
+# Dependencies
+libraries/
+sketches/
+
+# Sensitive Files (NEVER commit these!)
+secrets.h
+credentials.h
+config_local.h
+*.key
+*.pem
+
+# OS-specific
+.DS_Store
+Thumbs.db
+.directory
 
 # Temporary files
 *.tmp
-*.log
+*.temp
 *.bak
-*.swp
+*.backup
+*~
 
-# vcpkg
-vcpkg_installed/
+# Python cache (if using any Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
 
-# debug information files
-*.dwo
+# Documentation build
+docs/_build/
 
-# test output & cache
-Testing/
+# Arduino IDE cache
+.arduino15/
 .cache/
